@@ -1,0 +1,18 @@
+/* class inside slider element */
+.contentS {
+    text-align: center;
+    border-top: 1px solid rgb(79, 79, 79);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 4em 1em;
+    background-color: #0099ff;
+    
+}
+
+
+.contentS p {
+    margin: 10px;
+    font-size: 25px;
+}

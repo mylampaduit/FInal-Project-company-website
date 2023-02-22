@@ -1,0 +1,44 @@
+.content {
+  text-align: center;
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #0099ff;
+  
+}
+#bgDark {
+  background-color: #212529;
+background-color: #3C3B3B;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border-bottom: 5px solid #3C3B3B; */
+}
+.numbering {
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.numbering h1 {
+  /* color: var(--Blue); */
+}
+
+.numbering .first {
+  /* color: var(--Blue); */
+  text-align: center;
+  padding: 20px;
+}
+
+.numbering .first h1 {
+  font-size: 45px;
+}
+
+.numbering p {
+  font-size: 25px;
+}

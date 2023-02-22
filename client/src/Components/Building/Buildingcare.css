@@ -1,0 +1,25 @@
+.content {
+  text-align: center;
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.care h1 {
+  border-bottom: 5px solid var(--Blue);
+  padding: 5px !important;
+  margin: 20px;
+}
+
+.care p {
+  width: 80%;
+  font-size: 20px !important;
+  color: rgb(50, 50, 50) !important;
+}
+@media (max-width: 500px) {
+  .care p {
+    width: 100%;
+  }
+}

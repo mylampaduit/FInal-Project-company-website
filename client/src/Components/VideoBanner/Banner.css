@@ -1,0 +1,22 @@
+
+#bannervideo {
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  min-height: 100vh;
+}
+.homepagevideo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 790px) {
+  video.homepagevideo {
+    width: 90%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
